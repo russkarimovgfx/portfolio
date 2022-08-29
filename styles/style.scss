@@ -221,8 +221,9 @@ section {
    height: 70%;
    width: 68%;
    margin-left: 4rem;
-   background-color: var(--color-grey-6);
+   background-color: var(--color-black) !important;
    transition: all .4s ease-in-out;
+
 
    img {
     width: 100%;
@@ -230,6 +231,7 @@ section {
     object-fit: cover;
     transition: all .4s ease-in-out;
     filter: grayscale(100%);
+
 
     &:hover {
      filter: grayscale(0);
