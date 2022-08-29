@@ -221,7 +221,7 @@ section {
    height: 70%;
    width: 68%;
    margin-left: 4rem;
-   background-color: var(--color-black) !important;
+   background-color: var(--color-black);
    transition: all .4s ease-in-out;
 
 
@@ -231,7 +231,7 @@ section {
     object-fit: cover;
     transition: all .4s ease-in-out;
     filter: grayscale(100%);
-
+    box-shadow: -5px 7px 10px rgba(0, 0, 0, .4);
 
     &:hover {
      filter: grayscale(0);

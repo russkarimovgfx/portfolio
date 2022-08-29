@@ -265,7 +265,7 @@ section {
   height: 70%;
   width: 68%;
   margin-left: 4rem;
-  background-color: var(--color-black) !important;
+  background-color: var(--color-black);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -279,6 +279,8 @@ section {
   transition: all .4s ease-in-out;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  -webkit-box-shadow: -5px 7px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: -5px 7px 10px rgba(0, 0, 0, 0.4);
 }
 
 .header-content .left-header .image img:hover {
